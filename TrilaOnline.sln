@@ -3,9 +3,84 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1169
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{002162CE-17C9-4406-B083-6BA239070CC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{AACAF5F4-799A-493D-9068-7C9176C989C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{292A82B4-BA18-4768-BDA1-C8AD5D8125A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Services", "4 - Services", "{190511E3-2363-44D7-A659-321D8C035CF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{676683CC-B9DB-4C0D-9EA7-BEFA3DAA9157}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Resources", "6 - Resources", "{2D9BFA98-8267-42FF-AABD-73FAE4D9CC60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrilhaOnline.Presentation.Web", "TrilhaOnline.Presentation.Web\TrilhaOnline.Presentation.Web.csproj", "{A75D582F-1445-42A2-8B80-303282CA17A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrilhaOnline.Application.API", "TrilhaOnline.Application.API\TrilhaOnline.Application.API.csproj", "{6B1B616D-0B5A-4706-A17E-5718DC8B0310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrilhaOnline.Domain", "TrilhaOnline.Domain\TrilhaOnline.Domain.csproj", "{DF1E6E20-FC46-49E0-8CC8-AE0C9316B72D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrilhaOnline.Services", "TrilhaOnline.Services\TrilhaOnline.Services.csproj", "{C14B5468-DF2E-4941-B5EA-53771B77C8AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", "{1772E9FD-693E-4344-8F76-D62A9120F304}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{4F1A2AAC-5438-4185-A413-2CF3B4BAA0F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrilhaOnline.Resource.Utils", "TrilhaOnline.Resource.Utils\TrilhaOnline.Resource.Utils.csproj", "{6C5B5C7A-7870-4DE3-AAE6-F58B312CC11F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrilhaOnline.Infra.Data", "TrilhaOnline.Infra.Data\TrilhaOnline.Infra.Data.csproj", "{EFC7A5B5-9495-44DA-A186-0B9F5EB13CBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrilhaOnline.Infra.CrossCutting", "TrilhaOnline.Infra.CrossCutting\TrilhaOnline.Infra.CrossCutting.csproj", "{A2885739-F208-449D-B37F-E1765406F74C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A75D582F-1445-42A2-8B80-303282CA17A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A75D582F-1445-42A2-8B80-303282CA17A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A75D582F-1445-42A2-8B80-303282CA17A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A75D582F-1445-42A2-8B80-303282CA17A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B1B616D-0B5A-4706-A17E-5718DC8B0310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1B616D-0B5A-4706-A17E-5718DC8B0310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1B616D-0B5A-4706-A17E-5718DC8B0310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1B616D-0B5A-4706-A17E-5718DC8B0310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF1E6E20-FC46-49E0-8CC8-AE0C9316B72D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1E6E20-FC46-49E0-8CC8-AE0C9316B72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1E6E20-FC46-49E0-8CC8-AE0C9316B72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1E6E20-FC46-49E0-8CC8-AE0C9316B72D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C14B5468-DF2E-4941-B5EA-53771B77C8AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14B5468-DF2E-4941-B5EA-53771B77C8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14B5468-DF2E-4941-B5EA-53771B77C8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14B5468-DF2E-4941-B5EA-53771B77C8AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C5B5C7A-7870-4DE3-AAE6-F58B312CC11F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C5B5C7A-7870-4DE3-AAE6-F58B312CC11F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C5B5C7A-7870-4DE3-AAE6-F58B312CC11F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C5B5C7A-7870-4DE3-AAE6-F58B312CC11F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC7A5B5-9495-44DA-A186-0B9F5EB13CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC7A5B5-9495-44DA-A186-0B9F5EB13CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC7A5B5-9495-44DA-A186-0B9F5EB13CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC7A5B5-9495-44DA-A186-0B9F5EB13CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2885739-F208-449D-B37F-E1765406F74C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2885739-F208-449D-B37F-E1765406F74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2885739-F208-449D-B37F-E1765406F74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2885739-F208-449D-B37F-E1765406F74C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A75D582F-1445-42A2-8B80-303282CA17A0} = {002162CE-17C9-4406-B083-6BA239070CC1}
+		{6B1B616D-0B5A-4706-A17E-5718DC8B0310} = {AACAF5F4-799A-493D-9068-7C9176C989C3}
+		{DF1E6E20-FC46-49E0-8CC8-AE0C9316B72D} = {292A82B4-BA18-4768-BDA1-C8AD5D8125A3}
+		{C14B5468-DF2E-4941-B5EA-53771B77C8AF} = {190511E3-2363-44D7-A659-321D8C035CF3}
+		{1772E9FD-693E-4344-8F76-D62A9120F304} = {676683CC-B9DB-4C0D-9EA7-BEFA3DAA9157}
+		{4F1A2AAC-5438-4185-A413-2CF3B4BAA0F1} = {676683CC-B9DB-4C0D-9EA7-BEFA3DAA9157}
+		{6C5B5C7A-7870-4DE3-AAE6-F58B312CC11F} = {2D9BFA98-8267-42FF-AABD-73FAE4D9CC60}
+		{EFC7A5B5-9495-44DA-A186-0B9F5EB13CBE} = {1772E9FD-693E-4344-8F76-D62A9120F304}
+		{A2885739-F208-449D-B37F-E1765406F74C} = {4F1A2AAC-5438-4185-A413-2CF3B4BAA0F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02D7A5E6-E5FD-449E-8FFA-CE03700284EC}
